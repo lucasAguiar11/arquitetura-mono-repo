@@ -14,7 +14,8 @@
     "@types/node": "^18.0.5",
     "@types/jest": "27.5.0",
     "@types/react": "^18.0.15",
-    "typescript": "4.5.5"
+    "typescript": "4.5.5",
+    "@testing-library/react": "13.2.0"
   },
   "scripts": {
     "lint": "yarn workspaces run lint",
@@ -24,6 +25,7 @@
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
     "desing-system": "yarn workspace @alura/desing-system",
+    "test:desing-system": "yarn workspace @alura/desing-system test",
     "utils": "yarn workspace @alura/utils",
     "test:utils": "yarn utils test"
   }
