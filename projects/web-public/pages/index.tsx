@@ -1,7 +1,7 @@
 import { sum } from "@alura/utils/math/sum";
 import { Text } from "@alura/desing-system/components/Text";
 
-export default function HomeScreen() {
+export function HomeScreen() {
   return (
     <main>
       <Text tag={"h1"}>Home</Text>
